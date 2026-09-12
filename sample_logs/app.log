@@ -1,0 +1,24 @@
+2026-09-12 08:00:01 [INFO] App started on port 8080
+2026-09-12 08:00:15 [INFO] Connected to database db-prod-01
+2026-09-12 08:01:32 [INFO] GET /api/users 200 12ms
+2026-09-12 08:01:45 [INFO] GET /api/products 200 8ms
+2026-09-12 08:02:10 [WARN] GET /api/orders 503 12000ms - upstream timeout
+2026-09-12 08:02:12 [ERROR] Connection pool exhausted for db-prod-01 (active=50, max=50)
+2026-09-12 08:02:13 [ERROR] POST /api/orders 500 15020ms - could not acquire connection
+2026-09-12 08:02:14 [ERROR] POST /api/orders 500 14800ms - could not acquire connection
+2026-09-12 08:02:15 [ERROR] POST /api/orders 500 15100ms - could not acquire connection
+2026-09-12 08:02:16 [WARN] GET /api/orders 503 12500ms - upstream timeout
+2026-09-12 08:02:17 [ERROR] POST /api/orders 500 14950ms - could not acquire connection
+2026-09-12 08:02:18 [ERROR] POST /api/orders 500 15200ms - could not acquire connection
+2026-09-12 08:02:20 [WARN] Health check slow: /health 200 11000ms
+2026-09-12 08:02:25 [INFO] GET /api/users 200 45ms
+2026-09-12 08:02:30 [WARN] GET /api/orders 503 13000ms - upstream timeout
+2026-09-12 08:02:35 [ERROR] POST /api/orders 500 15500ms - could not acquire connection
+2026-09-12 08:02:40 [WARN] GET /api/inventory 429 2ms - rate limit exceeded
+2026-09-12 08:02:45 [INFO] Scheduled job cleanup started
+2026-09-12 08:03:00 [ERROR] Scheduled job cleanup failed: timeout after 15s
+2026-09-12 08:03:05 [WARN] GET /api/orders 503 12800ms - upstream timeout
+2026-09-12 08:03:10 [ERROR] POST /api/orders 500 15300ms - could not acquire connection
+2026-09-12 08:03:15 [ERROR] Memory usage critical: 94% (threshold 85%)
+2026-09-12 08:03:20 [ERROR] Prometheus export failed: connection refused
+2026-09-12 08:03:25 [INFO] GET /api/users 200 9ms
