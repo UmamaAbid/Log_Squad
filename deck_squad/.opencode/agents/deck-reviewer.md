@@ -1,6 +1,6 @@
 ---
 description: "Read-only subagent that audits a slide deck against the outline and the deck-review-checklist, then returns a pass/revise verdict with per-slide findings. Never edits files."
-mode: subagent
+mode: all
 temperature: 0.1
 steps: 10
 color: "#f59e0b"
