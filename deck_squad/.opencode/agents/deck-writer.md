@@ -1,6 +1,6 @@
 ---
 description: "Subagent that writes a Marp markdown slide deck from an approved outline, or revises a deck from reviewer findings. Writes only inside decks/."
-mode: subagent
+mode: all
 temperature: 0.5
 steps: 15
 color: "#22c55e"
